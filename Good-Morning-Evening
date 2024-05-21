@@ -1,0 +1,12 @@
+print("Welcome to 24-Hour Clock")
+time = input("Enter the time = ")
+print("Time = ", time)
+
+if (time >= "0:00" and time < "12:00"):
+  print("Good Morning")
+elif (time >= "12:00" and time < "16:00"):
+  print("Good Afternoon")
+elif (time >= "16:" and time <= "20:00"):
+  print("Good Evening")
+else:
+  print("Good Knight")
